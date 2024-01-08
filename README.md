@@ -1,5 +1,6 @@
 [![pytest](https://github.com/fortitudo-tech/entropy-pooling/actions/workflows/tests.yml/badge.svg)](https://github.com/fortitudo-tech/entropy-pooling/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/fortitudo-tech/entropy-pooling/graph/badge.svg?token=XGIQ78ZLDN)](https://codecov.io/gh/fortitudo-tech/entropy-pooling)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=example)
 
 Entropy Pooling in Python
 =========================
@@ -11,6 +12,9 @@ with a more permissive BSD 3-Clause license.
 This package contains only one function called ep and has minimal dependencies
 with just scipy. See [this example](https://github.com/fortitudo-tech/entropy-pooling/blob/main/example/EntropyPooling.ipynb)
 for how you can import and use the ep function.
+
+You can explore the example without local installations using
+[Binder](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=example).
 
 Installation instructions
 -------------------------

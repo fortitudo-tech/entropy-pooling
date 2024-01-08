@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "entropy-pooling"
+version = "1.0"
+description = "Entropy Pooling in Python with a BSD 3-Clause license."
+authors = ["Fortitudo Technologies <software@fortitudo.tech>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+homepage = "https://fortitudo.tech"
+repository = "https://github.com/fortitudo-tech/entropy-pooling"
+documentation = "https://os.fortitudo.tech"
+keywords = ["Entropy Pooling", "Quantitative Finance", "Monte Carlo", "Stress-Testing", "CVaR"]
+classifiers = [
+    "Intended Audience :: Education",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Mathematics"]
+packages = [
+    { include = "entropy_pooling" }
+]
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/fortitudo-tech/entropy-pooling/issues"
+
+[tool.poetry.dependencies]
+python = "^3.9, <3.13"
+scipy = "^1.10"
+
+[tool.poetry.dev-dependencies]
+fortitudo-tech = "^1.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

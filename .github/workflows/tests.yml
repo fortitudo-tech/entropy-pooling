@@ -1,0 +1,21 @@
+name: pytest
+
+on:
+  pull_request:
+
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: entropy-pooling-dev
+          environment-file: requirements.yml
+      - run: pytest --cov=entropy_pooling --cov-fail-under=100 --cov-report=xml
+      - uses: codecov/codecov-action@v3

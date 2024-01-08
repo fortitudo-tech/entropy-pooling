@@ -18,4 +18,7 @@ jobs:
           activate-environment: entropy-pooling-dev
           environment-file: requirements.yml
       - run: pytest --cov=entropy_pooling --cov-fail-under=100 --cov-report=xml
-      - uses: codecov/codecov-action@v3
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

@@ -4,9 +4,15 @@
 
 import numpy as np
 import pytest
-from context import ep, R
+from fortitudo.tech import load_pnl
+import os
+import sys
+sys.path.insert(
+    0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from entropy_pooling import ep
 
-R = R.values
+
+R = load_pnl().values
 S = len(R)
 A_base = np.ones((1, S))
 b_base = np.ones((1, 1))

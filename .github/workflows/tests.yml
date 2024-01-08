@@ -19,3 +19,5 @@ jobs:
           environment-file: requirements.yml
       - run: pytest --cov=entropy_pooling --cov-fail-under=100 --cov-report=xml
       - uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

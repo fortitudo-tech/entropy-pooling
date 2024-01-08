@@ -1,0 +1,9 @@
+name: entropy-pooling-example
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scipy
+  - pip
+  - pip:
+      - fortitudo.tech

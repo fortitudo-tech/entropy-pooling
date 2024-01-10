@@ -32,11 +32,11 @@ with sequential algorithms by [Vorobets (2021)](https://ssrn.com/abstract=393639
 
 The original Entropy Pooling approach solves the minimum relative entropy problem
 
-$$q=\text{argmin}\lbrace x'\left(\ln x-\ln p\right)\rbrace$$
+$$q=\underset{x}{\text{argmin}}\lbrace x^{T}\left(\ln x-\ln p\right)\rbrace$$
 
 subject to the constraints
 
-$$Ax=b \quad \text{and} \quad Gx\leq h.$$
+$$Gx\leq h \quad \text{and} \quad Ax=b.$$
 
 The constraints matrices $A$ and $G$ contain transformations of the Monte Carlo
 simulation that allow you to implement subjective views and stress-tests by

@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "entropy-pooling"
-version = "1.0"
+version = "1.0.1"
 description = "Entropy Pooling in Python with a BSD 3-Clause license."
 authors = ["Fortitudo Technologies <software@fortitudo.tech>"]
-license = "BSD 3-Clause"
+license = "BSD-3-Clause"
 readme = "README.md"
 homepage = "https://fortitudo.tech"
 repository = "https://github.com/fortitudo-tech/entropy-pooling"

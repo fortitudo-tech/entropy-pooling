@@ -4,7 +4,10 @@ channels:
 dependencies:
   - python=3.10
   - scipy
+  - seaborn
+  - pandas
   - pip
   - pip:
       - fortitudo.tech
       - entropy-pooling
+      - yfinance

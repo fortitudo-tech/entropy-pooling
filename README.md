@@ -47,3 +47,11 @@ A useful statistic when working with Entropy Pooling is the effective number of
 scenarios introduced by [Meucci (2012)](https://ssrn.com/abstract=1971808). For
 a causal Bayesian nets overlay on top of Entropy Pooling, see
 [Vorobets (2023)](https://ssrn.com/abstract=4444291).
+
+Video walkthroughs
+------------------
+
+Video walkthroughs of the two notebook examples for this package are available here
+https://youtu.be/hDt103zEML8 and here https://youtu.be/DK1Pv5tuLgo. The videos give
+additional insights into the Entropy Pooling theory and its sequential refinements.
+It is highly encouraged to watch these two quickly increase your understanding.

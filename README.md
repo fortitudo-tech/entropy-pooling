@@ -1,6 +1,6 @@
 [![pytest](https://github.com/fortitudo-tech/entropy-pooling/actions/workflows/tests.yml/badge.svg)](https://github.com/fortitudo-tech/entropy-pooling/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/fortitudo-tech/entropy-pooling/graph/badge.svg?token=XGIQ78ZLDN)](https://codecov.io/gh/fortitudo-tech/entropy-pooling)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=example)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=examples)
 
 Entropy Pooling in Python
 =========================
@@ -14,7 +14,7 @@ with just scipy. See [this example](https://github.com/fortitudo-tech/entropy-po
 for how you can import and use the ep function.
 
 You can explore the example without local installations using
-[Binder](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=example).
+[Binder](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=examples).
 
 Installation instructions
 -------------------------
@@ -51,7 +51,7 @@ a causal Bayesian nets overlay on top of Entropy Pooling, see
 Video walkthroughs
 ------------------
 
-Video walkthroughs of the two notebook examples for this package are available here
-https://youtu.be/hDt103zEML8 and here https://youtu.be/DK1Pv5tuLgo. The videos give
-additional insights into the Entropy Pooling theory and its sequential refinements.
-It is highly encouraged to watch these two quickly increase your understanding.
+Video walkthroughs of the two notebook examples are available here https://youtu.be/hDt103zEML8
+and here https://youtu.be/DK1Pv5tuLgo. The videos give additional insights into
+Entropy Pooling theory and its sequential refinements. It is highly encouraged
+to watch these two quickly increase your understanding.

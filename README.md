@@ -55,3 +55,13 @@ Video walkthroughs of the two notebook examples are available here https://youtu
 and here https://youtu.be/DK1Pv5tuLgo. The videos give additional insights into
 Entropy Pooling theory and its sequential refinements. It is highly encouraged
 to watch these two quickly increase your understanding.
+
+Portfolio Construction and Risk Management Book
+-----------------------------------------------
+
+Entropy Pooling is a core part of the next generation investment framework that
+also utilizes fully general Monte Carlo distributions and CVaR analysis, see
+[this YouTube video](https://youtu.be/4ESigySdGf8?si) for an introduction. To
+get a careful and pedagogical presentation of all the possibilities Entropy Pooling
+offers, see the [Portfolio Construction and Risk Management Book](https://igg.me/at/pcrm-book)
+crowdfunding campaign.

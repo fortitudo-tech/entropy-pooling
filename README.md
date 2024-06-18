@@ -10,10 +10,10 @@ implementation from the [fortitudo.tech Python package](https://github.com/forti
 with a more permissive BSD 3-Clause license.
 
 This package contains only one function called ep and has minimal dependencies
-with just scipy. See [this example](https://github.com/fortitudo-tech/entropy-pooling/blob/main/example/EntropyPooling.ipynb)
+with just scipy. See [the examples](https://github.com/fortitudo-tech/entropy-pooling/tree/main/examples)
 for how you can import and use the ep function.
 
-You can explore the example without local installations using
+You can explore the examples without local installations using
 [Binder](https://mybinder.org/v2/gh/fortitudo-tech/entropy-pooling/HEAD?labpath=examples).
 
 Installation instructions
@@ -51,10 +51,10 @@ a causal Bayesian nets overlay on top of Entropy Pooling, see
 Video walkthroughs
 ------------------
 
-Video walkthroughs of the two notebook examples are available here https://youtu.be/hDt103zEML8
-and here https://youtu.be/DK1Pv5tuLgo. The videos give additional insights into
-Entropy Pooling theory and its sequential refinements. It is highly encouraged
-to watch these two quickly increase your understanding.
+Video walkthroughs of the two notebook examples are available [here](https://youtu.be/hDt103zEML8)
+and [here](https://youtu.be/DK1Pv5tuLgo). The videos give additional insights into
+Entropy Pooling theory and its sequential refinements. It is highly recommended
+to watch these two videos to quickly increase your understanding.
 
 Portfolio Construction and Risk Management Book
 -----------------------------------------------
@@ -62,6 +62,5 @@ Portfolio Construction and Risk Management Book
 Entropy Pooling is a core part of the next generation investment framework that
 also utilizes fully general Monte Carlo distributions and CVaR analysis, see
 [this YouTube video](https://youtu.be/4ESigySdGf8?si) for an introduction. To
-get a careful and pedagogical presentation of all the possibilities Entropy Pooling
-offers, see the [Portfolio Construction and Risk Management Book](https://igg.me/at/pcrm-book)
-crowdfunding campaign.
+get a pedagogical and deep presentation of all the possibilities Entropy Pooling
+offers, see the [Portfolio Construction and Risk Management Book](https://igg.me/at/pcrm-book).

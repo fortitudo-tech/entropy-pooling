@@ -29,6 +29,7 @@ Entropy Pooling is a powerful method for implementing subjective views and
 performing stress-tests for fully general Monte Carlo distributions. It was first
 introduced by [Meucci (2008)](https://ssrn.com/abstract=1213325) and refined
 with sequential algorithms by [Vorobets (2021)](https://ssrn.com/abstract=3936392).
+For a quick introduction to Entropy Pooling intuition, watch [this YouTube video](https://youtu.be/qk_5l4ICXfY).
 
 The original Entropy Pooling approach solves the minimum relative entropy problem
 
@@ -38,8 +39,8 @@ subject to the constraints
 
 $$Gx\leq h \quad \text{and} \quad Ax=b.$$
 
-The constraints matrices $A$ and $G$ contain transformations of the Monte Carlo
-simulation that allow you to implement subjective views and stress-tests by
+The constraints matrices $A$ and $G$ contain functions of the Monte Carlo
+simulation $R$ that allow you to implement subjective views and stress-tests by
 changing the joint scenario probabilities from a prior probability vector $p$
 to a posterior probability vector $q$.
 

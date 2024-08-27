@@ -29,13 +29,19 @@ Entropy Pooling is a powerful method for implementing subjective views and
 performing stress-tests for fully general Monte Carlo distributions. It was first
 introduced by [Meucci (2008)](https://ssrn.com/abstract=1213325) and refined
 with sequential algorithms by [Vorobets (2021)](https://ssrn.com/abstract=3936392).
+
+[You can loosely think about Entropy Pooling as a generalization of the Black-Litterman model](https://antonvorobets.substack.com/p/entropy-pooling-vs-black-litterman-abb608b810cd) without all the oversimplifying assumptions. Entropy Pooling operates directly on 
+[the next generation market representation](https://youtu.be/4ESigySdGf8?si=yWYuP9te1K1RBU7j&t=46)
+defined by the simulation matrix $R\in\mathbb{R}^{S\times I}$ and associated joint
+scenario probability vector $p\in\mathbb{R}^{S}$.
+
 For a quick introduction to Entropy Pooling intuition, watch [this YouTube video](https://youtu.be/qk_5l4ICXfY).
 
 The original Entropy Pooling approach solves the minimum relative entropy problem
 
 $$q=\underset{x}{\text{argmin}}\lbrace x^{T}\left(\ln x-\ln p\right)\rbrace$$
 
-subject to the constraints
+subject to linear constraints on the posterior probabilities
 
 $$Gx\leq h \quad \text{and} \quad Ax=b.$$
 
@@ -45,8 +51,9 @@ changing the joint scenario probabilities from a prior probability vector $p$
 to a posterior probability vector $q$.
 
 A useful statistic when working with Entropy Pooling is the effective number of
-scenarios introduced by [Meucci (2012)](https://ssrn.com/abstract=1971808). For
-a causal Bayesian nets overlay on top of Entropy Pooling, see
+scenarios introduced by [Meucci (2012)](https://ssrn.com/abstract=1971808).
+
+For a causal Bayesian network overlay on top of Entropy Pooling, see
 [Vorobets (2023)](https://ssrn.com/abstract=4444291).
 
 Video walkthroughs
@@ -55,7 +62,7 @@ Video walkthroughs
 Video walkthroughs of the two notebook examples are available [here](https://youtu.be/hDt103zEML8)
 and [here](https://youtu.be/DK1Pv5tuLgo). The videos give additional insights into
 Entropy Pooling theory and its sequential refinements. It is highly recommended
-to watch these two videos to quickly increase your understanding.
+to watch these videos to quickly increase your understanding.
 
 Portfolio Construction and Risk Management Book
 -----------------------------------------------

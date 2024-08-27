@@ -32,8 +32,8 @@ with sequential algorithms by [Vorobets (2021)](https://ssrn.com/abstract=393639
 
 [You can loosely think about Entropy Pooling as a generalization of the Black-Litterman model](https://antonvorobets.substack.com/p/entropy-pooling-vs-black-litterman-abb608b810cd) without all the oversimplifying assumptions. Entropy Pooling operates directly on 
 [the next generation market representation](https://youtu.be/4ESigySdGf8?si=yWYuP9te1K1RBU7j&t=46)
-defined by the simulation matrix $R\in\mathbb{R}^{S\times I}$ and associated joint
-scenario probability vector $p\in\mathbb{R}^{S}$.
+defined by the simulation matrix $R\in \mathbb{R}^{S\times I}$ and associated joint
+scenario probability vector $p\in \mathbb{R}^{S}$.
 
 For a quick introduction to Entropy Pooling intuition, watch [this YouTube video](https://youtu.be/qk_5l4ICXfY).
 

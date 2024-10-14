@@ -36,6 +36,7 @@ defined by the simulation matrix $R\in \mathbb{R}^{S\times I}$ and associated jo
 scenario probability vector $p\in \mathbb{R}^{S}$.
 
 For a quick introduction to Entropy Pooling intuition, watch [this YouTube video](https://youtu.be/qk_5l4ICXfY).
+For a collection of Entropy Pooling resources, see this [Substack post](https://antonvorobets.substack.com/p/entropy-pooling-collection).
 
 The original Entropy Pooling approach solves the minimum relative entropy problem
 

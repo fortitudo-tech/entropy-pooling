@@ -30,8 +30,10 @@ performing stress-tests for fully general Monte Carlo distributions. It was firs
 introduced by [Meucci (2008)](https://ssrn.com/abstract=1213325) and refined
 with sequential algorithms by [Vorobets (2021)](https://ssrn.com/abstract=3936392).
 
+[Watch this lecture for a detailed presentation of Sequential Entropy Pooling (SeqEP)](https://antonvorobets.substack.com/p/sequential-entropy-pooling-anton-vorobets-university-hohenheim).
+
 [You can loosely think about Entropy Pooling as a generalization of the Black-Litterman model](https://antonvorobets.substack.com/p/entropy-pooling-vs-black-litterman-abb608b810cd) without all the oversimplifying assumptions. Entropy Pooling operates directly on 
-[the next generation market representation](https://youtu.be/4ESigySdGf8?si=yWYuP9te1K1RBU7j&t=46)
+[the next generation market representation](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework)
 defined by the simulation matrix $R\in \mathbb{R}^{S\times I}$ and associated joint
 scenario probability vector $p\in \mathbb{R}^{S}$.
 
@@ -47,7 +49,7 @@ subject to linear constraints on the posterior probabilities
 $$Gx\leq h \quad \text{and} \quad Ax=b.$$
 
 The constraints matrices $A$ and $G$ contain functions of the Monte Carlo
-simulation $R$ that allow you to implement subjective views and stress-tests by
+simulation $R$ that allow you to implement subjective views and stress tests by
 changing the joint scenario probabilities from a prior probability vector $p$
 to a posterior probability vector $q$.
 
@@ -72,4 +74,5 @@ Entropy Pooling is a core part of the next generation investment framework that
 also utilizes fully general Monte Carlo distributions and CVaR analysis, see
 [this YouTube video](https://youtu.be/4ESigySdGf8?si) for an introduction. To
 get a pedagogical and deep presentation of all the possibilities Entropy Pooling
-offers, see the [Portfolio Construction and Risk Management Book](https://igg.me/at/pcrm-book).
+offers, see the [Portfolio Construction and Risk Management Book](https://antonvorobets.substack.com/p/pcrm-book)
+and check out the [Applied Quantitative Investment Management course](https://antonvorobets.substack.com/t/course)
